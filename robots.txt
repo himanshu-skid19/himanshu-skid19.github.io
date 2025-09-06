@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://himanshu-skid19.github.io/sitemap.xml
+Sitemap: https://himanshu-skid19.github.io/al-folio/sitemap.xml
