@@ -1,81 +1,65 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Agentic RAG Chatbot for LegalQA
+description: Inter IIT Tech Meet 13.0 - Rank 4 among 23 IITs
+img: assets/img/legal-ai.jpg
 importance: 1
-category: work
-related_publications: true
+category: research
+github: https://github.com/himanshu-skid19
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Developed an advanced Retrieval-Augmented Generation (RAG) system specifically designed for legal question answering that addresses the critical problem of hallucination and inaccurate information retrieval in legal AI systems.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Problem Statement
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Legal RAG systems often suffer from:
+- **Hallucination**: Generating false or misleading legal information
+- **Inaccurate Retrieval**: Retrieving irrelevant or contextually incorrect legal documents
+- **Real-time Constraints**: Need for immediate, accurate responses in legal scenarios
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Approach
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 1. Parallel DAG-based Task Planning
+- **Modified LLMCompiler**: Adapted the LLMCompiler framework to work specifically with RAG systems
+- **Parallel Processing**: Implemented parallel task execution for faster response times
+- **Dynamic Task Scheduling**: Intelligent scheduling based on query complexity and document availability
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### 2. Real-time Data Processing
+- **Pathway's Vector Store**: Integrated Pathway's vector database for real-time document ingestion
+- **Dynamic Retrieval**: System can handle new legal documents as they're added
+- **Scalable Architecture**: Built to handle large-scale legal document repositories
 
-{% raw %}
+### 3. Advanced Retrieval Mechanisms
+- **Multi-stage Retrieval**: Implemented hierarchical retrieval with multiple filtering stages
+- **Context Preservation**: Maintained legal context throughout the retrieval process
+- **Relevance Scoring**: Custom scoring mechanism for legal document relevance
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Results & Impact
 
-{% endraw %}
+### Performance Metrics
+- **86% accuracy** on the CUAD dataset (contract law)
+- **84% accuracy** on the AILA dataset (case law)
+- **Rank 4** achievement among all 23 IITs at Inter IIT Tech Meet 13.0
+
+### Key Achievements
+- **Reduced Hallucination**: Significant improvement in factual accuracy for legal responses
+- **Enhanced Reliability**: More trustworthy legal information retrieval
+- **Real-time Performance**: Sub-second response times for most queries
+
+## Technical Stack
+
+- **Language Models**: Large Language Models with custom fine-tuning
+- **Vector Database**: Pathway's vector store for real-time processing
+- **Framework**: Modified LLMCompiler for parallel task execution
+- **Evaluation**: CUAD and AILA datasets for comprehensive testing
+
+## Future Work
+
+- Integration with more legal databases
+- Support for multilingual legal documents
+- Enhanced explainability for legal reasoning
+- Deployment for real-world legal assistance
+
+This project demonstrates the potential of combining advanced AI techniques with domain-specific knowledge to create reliable, accurate systems for critical applications like legal assistance.

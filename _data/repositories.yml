@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - himanshu-skid19
+
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - himanshu-skid19/Inter-IIT-13-Pathway-LegalQA-Chatbot
+  - himanshu-skid19/Inter-IIT-12-Adobe-Behavior-Simulation-Challenge
+  - himanshu-skid19/Inter-IIT-12-Devrev-AI-Agent-007
+  - himanshu-skid19/encode
+  - himanshu-skid19/google-vertex-ai-hackathon
+  - himanshu-skid19/BigData_CourseProject
+  - himanshu-skid19/Documentation_Optimizer_Using_TextGrad
