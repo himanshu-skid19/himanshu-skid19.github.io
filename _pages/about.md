@@ -29,7 +29,7 @@ latest_posts:
 
 
 
-Hey! I'm Himanshu, a Data Science and AI undergraduate at the **Indian Institute of Technology Guwahati**, passionate about Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), Computer Vision (CV), and Large Language Models (LLMs).My expertise lies in **Agentic AI systems**, **Retrieval-Augmented Generation (RAG) pipelines**, and **diffusion models**. Currently, I’m working on my Bachelor’s Thesis on Online Signature Verification using Vision Transformers. I have previously done various projects, representing my college in two Inter IIT Tech Meets as well as research internships at **Arizona State University** and **Adobe Research**. 
+Hey! I'm Himanshu, a Data Science and AI undergraduate at the **Indian Institute of Technology Guwahati**, passionate about Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), Computer Vision (CV), and Large Language Models (LLMs).My expertise lies in **Agentic AI systems**, **Retrieval-Augmented Generation (RAG) pipelines**, and **diffusion models**. Currently, I’m working on my Bachelor’s Thesis on Online Signature Verification using Vision Transformers. I have previously done various projects, represented my college in two Inter IIT Tech Meets as well as research internships at **Arizona State University** and **Adobe Research**. 
 
 My research interests revolve around efficient LLMs — particularly in developing resource-efficient techniques to enhance model performance and scalability.
 
