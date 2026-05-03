@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Submitted a paper titled ***GAFSV-Net: A Vision Framework for Online Signature Verification***  to **IJCB 2026** for review.
+Submitted a paper titled ***GAFSV-Net: A Vision Framework for Online Signature Verification*** for review.
