@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-06 07:59:00-0400
+date: 2026-05-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Submitted a paper titled ***REaR: Retrieve, Expand and Refine for Effective Multitable Retrieval***  to **EACL 2026** for review.
+Submitted a paper titled ***GAFSV-Net: A Vision Framework for Online Signature Verification***  to **IJCB 2026** for review.
