@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-04-07 07:59:00-0400
+date: 2026-7-12 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Paper titled ***REaR: Retrieve, Expand and Refine for Effective Multitable Retrieval***  accepted to **ACL 2026 (Main Conference)**.
+Graduated from **Indian Institute of Technology, Guwahati** with a B.Tech. degree in **Data Science and Artificial Intelligence**.
